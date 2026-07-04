@@ -20,9 +20,7 @@ project-ops-template/
 
 ## 部署三步（在目標專案的第一個 session 執行）
 
-1. 把 `ops/` 整個目錄複製進專案（建議 `<專案根>/ops/`；若放別處，記得同步改 CLAUDE.md 路由表的路徑）。
-2. 按 `ops/00-bootstrap.md` 跑一次診斷：盤點實際可用的模型 id、subagent、MCP、skill，填進診斷結果區。**這步不能跳過**——後面所有派工都引用這份盤點，寫錯的模型 id 會讓整套調度失效。
-3. 用 `CLAUDE.md.template` 重寫專案的 CLAUDE.md（既有的先備份），填掉所有【】填空，然後 read-back 驗證路由表每個路徑都真實存在。
+步驟流程請看：DEPLOY.md
 
 ## 設計原則（改動本制度前先理解）
 
