@@ -20,7 +20,7 @@ project-ops-template/
 
 ## 部署三步（在目標專案的第一個 session 執行）
 
-步驟流程請看：DEPLOY.md
+部署步驟請看：`DEPLOY.md`
 
 ## 設計原則（改動本制度前先理解）
 
